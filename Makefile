@@ -1,6 +1,6 @@
 ifeq ($(OS), Windows_NT)
 	MK_BUILD = if not exist build mkdir build
-	RM_BUILD = del /q build\*.*
+	RM_BUILD = rmdir /s /q build
 else
 	MK_BUILD = mkdir -p build
 	RM_BUILD = rm -r build/
