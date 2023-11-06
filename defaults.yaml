@@ -1,0 +1,12 @@
+from: markdown
+to: docx
+reference-doc: custom-reference.docx
+metadata:
+  title: МЕТОД АВТОМАТИЧЕСКОГО ПОСТРОЕНИЯ ТЕЗАУРУСОВ НА ОСНОВЕ СТАТИСТИЧЕСКОЙ ОБРАБОТКИ ТЕКСТОВ НА ЕСТЕСТВЕННОМ ЯЗЫКЕ
+  author: И.А. Бессмертный, А.Б. Нугуманова
+  figureTitle: Рис.
+  figPrefix: рис.
+  tableTitle: Таблица
+  tblPrefix: табл.
+  eqnPrefix: ""
+  titleDelim: .
