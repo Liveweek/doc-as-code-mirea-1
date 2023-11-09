@@ -10,7 +10,7 @@ all: build
 
 build:
 	$(MK_BUILD)
-	pandoc --defaults=defaults.yaml -F pandoc-crossref -o build/text.docx text.md
+	pandoc --defaults=defaults.yaml -F pandoc-crossref --citeproc -o build/text.docx text.md
 
 clean:
 	$(RM_BUILD)
